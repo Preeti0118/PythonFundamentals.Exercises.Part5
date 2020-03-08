@@ -1,3 +1,6 @@
+from audioop import reverse
+
+
 def is_palindrome(value: str) -> bool:
     """
     This function determines if a word or phrase is a palindrome
@@ -5,4 +8,10 @@ def is_palindrome(value: str) -> bool:
     :param value: A string
     :return: A boolean
     """
-    pass  # remove pass statement and implement me
+    var_rev = value[::-1]
+
+    if value == var_rev:
+        return True
+    else:
+        return False
+
