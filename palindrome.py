@@ -8,10 +8,14 @@ def is_palindrome(value: str) -> bool:
     :param value: A string
     :return: A boolean
     """
-    var_rev = value[::-1]
+    var1 = value.replace(" ", "")
+    var1 = var1.lower()
+    var_rev = var1[::-1]
 
-    if value == var_rev:
+
+    if var1 == var_rev:
         return True
     else:
         return False
+
 
