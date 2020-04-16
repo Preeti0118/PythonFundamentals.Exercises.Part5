@@ -54,3 +54,8 @@ def opposite_case(str_in: str) -> str:
         else:
             str_list.append(i)
     return str_list
+
+
+
+
+#
